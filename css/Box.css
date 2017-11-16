@@ -1,0 +1,95 @@
+.Box-content{
+    border:3px solid #ddd;
+    width:405px;
+    margin:100px auto;
+    height:auto;
+}
+.Box-header {
+    height:30px;
+    background:#888;
+    text-align:center;
+    padding-top:5px;
+}
+.Box-dateTable {
+    border-top:1px solid #ccc;
+    border-left:1px solid #ccc;
+    background:#fff;
+    width:100%;
+}
+.CalendarDay {
+    float: left;
+    width:405px;
+    margin-top:-40px;
+    border-bottom:2px solid #ccc;
+}
+
+.CalendarDay ul{
+    float: left;
+    width:405px;
+    margin-top:30px;
+    margin-left:-40px;
+
+}
+
+.CalendarDay li {
+    list-style-type:none;
+    font-size:14px;
+    float:left;
+    width:51px;
+    height:30px;
+}
+.weekday {
+    padding-left:3px;
+    float: left;
+    width:405px;
+}
+
+.weekday ul{
+    margin-top:10px;
+    float:right;
+    width:405px;
+}
+
+.weekday li{
+    list-style-type:none;
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc;
+    text-align:center;
+    float: left;
+    width:56px;
+}
+
+.weekday li:last-child{
+    border-right:none;
+}
+
+
+
+.Box-dateTable span {
+    padding:0 5px;
+}
+
+#datePicker{
+    padding-bottom:15px;
+    border:1px solid transparent;
+    width:45px;
+    margin:5px 5px;
+}
+
+#datePicker:hover{
+    background-color:#D0D0D0;
+}
+
+
+
+#lunarDate{
+    font-size:8px;
+    margin-top:2px;
+}
+
+#solarDate{
+    font-size:16px;
+    font-weight: 600;
+    margin-top:5px;
+    color:#000;
+}
